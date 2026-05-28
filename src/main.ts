@@ -2,12 +2,14 @@ import { NestFactory } from '@nestjs/core';
 import { AppModule } from './app.module';
 import { Logger, ValidationPipe } from '@nestjs/common';
 import { DocumentBuilder, SwaggerModule } from '@nestjs/swagger';
-import express from 'express';
+import { NestExpressApplication } from '@nestjs/platform-express';
+import * as express from 'express';
 import { ConfigService } from '@nestjs/config';
+import { join } from 'path';
 
 async function bootstrap() {
   const logger = new Logger('Gmail-Ms');
-  const app = await NestFactory.create(AppModule);
+  const app = await NestFactory.create<NestExpressApplication>(AppModule);
   const configService = app.get(ConfigService);
   
   app.setGlobalPrefix('/api/');
@@ -38,6 +40,9 @@ async function bootstrap() {
     .build();
   const document = SwaggerModule.createDocument(app, config);
   SwaggerModule.setup('api', app, document);
+
+  // Directorio Público
+  app.useStaticAssets(join(__dirname, '..', 'public'));
 
   const port = process.env.PORT || 3000;
   await app.listen(port);

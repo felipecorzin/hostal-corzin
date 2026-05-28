@@ -19,7 +19,8 @@ import { UsersModule } from './users/users.module';
       useFactory: (configService: ConfigService) => ({
         type: 'postgres',
         host: process.env.POSTGRES_HOST,
-        port: 5436,
+        // port: 5436,
+        port: parseInt(process.env.POSTGRES_PORT || '5432'),
         username: process.env.POSTGRES_USERNAME,
         password: process.env.POSTGRES_PASSWORD,
         database: process.env.POSTGRES_DATABASE,
