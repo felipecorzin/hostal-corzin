@@ -45,12 +45,12 @@ export class UsersService {
     return user;
   }
 
-  async update(id: number, updateUserDto: UpdateUserDto) {
+  async update(id: number, createUserDto: CreateUserDto) {
     const user = await this.findOne(id);
     if (!user) throw new NotFoundException('User not found');
     return this.usersRepository.save({
       ...user,
-      ...updateUserDto,
+      ...createUserDto,
     });
   }
 

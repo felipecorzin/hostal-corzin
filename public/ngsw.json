@@ -1,0 +1,111 @@
+{
+  "configVersion": 1,
+  "timestamp": 1780120890318,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/favicon.ico",
+        "/index.html",
+        "/main-3RSMEB3Q.js",
+        "/manifest.webmanifest",
+        "/scripts-47AA7252.js",
+        "/styles-7FCA3TP5.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/icons/icon-128x128.png",
+        "/icons/icon-144x144.png",
+        "/icons/icon-152x152.png",
+        "/icons/icon-192x192.png",
+        "/icons/icon-384x384.png",
+        "/icons/icon-512x512.png",
+        "/icons/icon-72x72.png",
+        "/icons/icon-96x96.png",
+        "/img/avatar.png",
+        "/img/hostal-rest-corzin.svg",
+        "/img/hostal-rest.png",
+        "/img/hotel-rural-casa-corzin.jpg",
+        "/img/logo-hostal-rest.svg",
+        "/img/photoURL.png",
+        "/img/photoURL.svg",
+        "/media/bootstrap-icons-CVBWLLHT.woff2",
+        "/media/bootstrap-icons-VQNJTM6Q.woff",
+        "/rooms/icons-svg/balcon.svg",
+        "/rooms/icons-svg/baño-completo.svg",
+        "/rooms/icons-svg/heating-calefaccion.svg",
+        "/rooms/icons-svg/phone.svg",
+        "/rooms/icons-svg/television.svg",
+        "/rooms/icons-svg/wifi.svg",
+        "/salons/salon-interior.svg"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/favicon.ico": "32aeb8fb8a295c53953c6742c36f1a6ca76e5f71",
+    "/icons/icon-128x128.png": "14bb205062774da630f9ab8bb5544023a8e91e93",
+    "/icons/icon-144x144.png": "03c3d10cacc0d25c187623950fe604bd24a6cee2",
+    "/icons/icon-152x152.png": "26af2b3646f258dbabe6595c40f2092f38a9ce50",
+    "/icons/icon-192x192.png": "59fb92bab698ce543e6ffea8ec963071bea4da01",
+    "/icons/icon-384x384.png": "94811cc374d470abdda9538f2c0dd35f25efc829",
+    "/icons/icon-512x512.png": "fa2d9636688bf6d5696e6f5d6b32f8c9d501ea79",
+    "/icons/icon-72x72.png": "02c8a31b8c19ae31cfff02651a932f643c6d80da",
+    "/icons/icon-96x96.png": "c3f41e144b605bb288bc894054571caae1ecccba",
+    "/img/avatar.png": "e19db4fead6043b9ad750ac8b561016c6f8557f3",
+    "/img/hostal-rest-corzin.svg": "d009964cb7a396c9dda18a55ea1ed4fa884d13ad",
+    "/img/hostal-rest.png": "d777eb4e6bd6bb58f7aaba42c99cb975a6eec1b7",
+    "/img/hotel-rural-casa-corzin.jpg": "04ffa1c51f75eba7e948a19fffdcf4c613b03a19",
+    "/img/logo-hostal-rest.svg": "7db6346571706c9eb84d385bdcb05f10c199892a",
+    "/img/photoURL.png": "e19db4fead6043b9ad750ac8b561016c6f8557f3",
+    "/img/photoURL.svg": "40d5593754cf4cc7bea107dc432d7c6bb40b489b",
+    "/index.html": "2e314e1bebaeca1e5db5ad748965c9d495acd9b6",
+    "/main-3RSMEB3Q.js": "d93d733bc4da615f0cd855ed35183763fca7e77f",
+    "/manifest.webmanifest": "ecbef7d908e8a42b0a1e3cd4ae1aa6189e382db0",
+    "/media/bootstrap-icons-CVBWLLHT.woff2": "b441fcff939e24fa0906a37b7788788b9fddbb68",
+    "/media/bootstrap-icons-VQNJTM6Q.woff": "762010c79b4a05e1131fc8fb3b1aeff324d8033f",
+    "/rooms/icons-svg/balcon.svg": "eaa61046a6b1f988f7e95deebda539cd9427120a",
+    "/rooms/icons-svg/baño-completo.svg": "884fa61259a47d4c1bfa8fa51cb0483943c03bac",
+    "/rooms/icons-svg/heating-calefaccion.svg": "7994d392c3feb5303861ce34bc7408e36faa169c",
+    "/rooms/icons-svg/phone.svg": "92ae4cabd29f9f1b26fbbe0dda327cdb6668ec21",
+    "/rooms/icons-svg/television.svg": "14921c2bee48fd12e6daee320bb0ea24001472d6",
+    "/rooms/icons-svg/wifi.svg": "25561c575b98c4f5f2aba7a237da195ec2c04b8f",
+    "/salons/salon-interior.svg": "c8157780ce99e5e3c74b15a3dd923cc05dd83319",
+    "/scripts-47AA7252.js": "62a881aabc6c378128e75b0c6793d372e3a272ce",
+    "/styles-7FCA3TP5.css": "d1d3ad4859325eeb54a4b47b67d5c5cf2a32fe4b"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
